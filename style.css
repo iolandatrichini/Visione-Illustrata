@@ -1,0 +1,450 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol {
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo Black";
+}
+/* HEADER */
+header {
+    background-color: #F0E82E;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20PX;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.info-home {
+    padding: 24px;
+    min-height: 400px;
+    text-align: center;
+}
+
+.info-mostra {
+    background-color: green;
+    padding: 24px;
+    min-height: 400px;
+    text-align: center;
+}
+/* FINE HEADER */
+
+/* viaggio */
+.viaggio h1, h2 {
+    margin-left: 100px;
+    max-width: 1000px;
+    font-family: "Archivo Black";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* fine viaggio */
+
+/* CONTAINER MESSAGE */
+.containermessage {
+    background-color: #F0E82E;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: top;
+    padding: 10px;
+}
+
+.message {
+    height: 230px;
+    width: 80%;
+}
+
+.message p {
+    margin-left: 0; 
+    padding-left: 0; 
+    max-width: 1000px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .containermessage {
+        flex-direction: column; 
+        padding: 40px; 
+    }
+
+    .message {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .message p {
+        font-size: 16px; 
+    }
+
+}
+/* FINE CONTAINER MESSAGE */
+
+.artisti {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 20px; 
+}
+
+.artisti h2 {
+    font-family: "Archivo Black";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0; 
+}
+/*FINE ARTISTI*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex-basis: 30%; 
+    margin: 10px;
+    text-align: center; 
+}
+
+.box img {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto; 
+}
+
+.box6 {
+    height: 200px;
+    width: 30%;
+}
+
+footer {
+    background-color: #F0E82E;
+    padding: 16px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.footer-item {
+    flex: 1; 
+    text-align: center;
+    font-size: 15px;
+    margin: 8px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .footer-item {
+        flex-basis: 100%; 
+    }
+}
+/*-------------------------------------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.containerartisti {
+    padding: 20px;
+}
+
+.artistisezione {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; 
+}
+.artistisezione h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.artistisezione p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.artisti {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.artisti h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.containerfotoartisti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+    background-color: #F0E82E;
+}
+
+.containerfotoartisti .boxa1,
+.containerfotoartisti .boxa2,
+.containerfotoartisti .boxa3,
+.containerfotoartisti .boxa4,
+.containerfotoartisti .boxa5,
+.containerfotoartisti .boxa6,
+.containerfotoartisti .boxa7,
+.containerfotoartisti .boxa8,
+.containerfotoartisti .boxa9 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.containerfotoartisti .boxa1 img,
+.containerfotoartisti .boxa2 img,
+.containerfotoartisti .boxa3 img,
+.containerfotoartisti .boxa4 img,
+.containerfotoartisti .boxa5 img,
+.containerfotoartisti .boxa6 img,
+.containerfotoartisti .boxa7 img,
+.containerfotoartisti .boxa8 img,
+.containerfotoartisti .boxa9 img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.containerfotoartisti .boxa1 h3,
+.containerfotoartisti .boxa2 h3,
+.containerfotoartisti .boxa3 h3,
+.containerfotoartisti .boxa4 h3,
+.containerfotoartisti .boxa5 h3,
+.containerfotoartisti .boxa6 h3,
+.containerfotoartisti .boxa7 h3,
+.containerfotoartisti .boxa8 h3,
+.containerfotoartisti .boxa9 h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerfotoartisti .boxa1,
+    .containerfotoartisti .boxa2,
+    .containerfotoartisti .boxa3,
+    .containerfotoartisti .boxa4,
+    .containerfotoartisti .boxa5,
+    .containerfotoartisti .boxa6,
+    .containerfotoartisti .boxa7,
+    .containerfotoartisti .boxa8,
+    .containerfotoartisti .boxa9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/*MICHELLE*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.containerm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto; 
+    max-width: 1000px; 
+}
+
+.containerm .boxm {
+    flex: 0 0 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.containerm .boxm img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+@media only screen and (max-width: 768px) {
+    .containerm .boxm {
+        flex: 0 0 calc(100% - 20px); 
+        max-width: calc(100% - 20px);
+    }
+}
+/*MARTINA*/
+
+.containermessagemp {
+    background-color: #F0E82E;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    padding: 10px;
+}
+
+.messagemp {
+    height: 360px;
+    width: 80%;
+}
+
+.messagemp p {
+    margin-left: 0;
+    padding-left: 0; 
+    max-width: 850px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .containermessagemp {
+        flex-direction: column; 
+        padding: 40px; 
+    }
+
+    .messagemp {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .messagemp p {
+        font-size: 16px; 
+    }
+}
+
+.viaggioartmp h1 {
+    margin-left: 100px;
+    max-width: 1000px;
+    font-family: "Archivo Black";
+    font-size: 24px;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containermp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto; 
+    max-width: 1000px; 
+}
+
+.containermp .boxmp {
+    flex: 0 0 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.containermp .boxmp img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+@media only screen and (max-width: 768px) {
+    .containermp .boxmp {
+        flex: 0 0 calc(100% - 20px); 
+        max-width: calc(100% - 20px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .containeric .boxic1,
+    .containeric .boxic2,
+    .containeric .boxic3 {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    .containeric .boxic3 {
+        margin-top: 10px; 
+    }
+}
+/*MOSTRA*/
+
+.mostra h1, h2 {
+    text-align: left;
+    font-family: "Archivo Black";
+    margin-left: 100px;
+    max-width: 1000px;
+    font-family: "Archivo Black";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containermessagemostra {
+    background-color: #F0E82E;
+    max-width: 1300px; 
+    margin: 0 auto;
+    padding: 10px 220px;
+}
+
+.messagemostra {
+    text-align: justify;
+}
+
+.messagemostra p {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    max-width: 750px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: left;
+    align-items: top;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .containermessagemostra {
+        padding: 0 10px; 
+    }
+}
+/*INFO*/
+
+.containerinfo {
+    background-color: #F0E82E;
+}
+
